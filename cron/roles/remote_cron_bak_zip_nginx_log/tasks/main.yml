@@ -1,0 +1,10 @@
+---
+# This role contains common plays that will run on all nodes.
+
+- name: Execute scripts
+  command: chdir=/root/ {{ item }}
+  with_items:
+    - sh httplogsbak.sh
+    - sh httplogzip.sh
+  ignore_errors: yes
+

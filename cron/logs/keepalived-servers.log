@@ -1,0 +1,3619 @@
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.1.60.20]
+ok: [10.0.60.8]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.1.60.20]
+ok: [10.0.60.8]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Fri Mar 31 00:01:04 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.1.60.20]
+ok: [10.0.60.8]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Sat Apr  1 00:01:03 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.60.20]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Sun Apr  2 00:01:05 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.1.60.20]
+ok: [10.0.60.8]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Mon Apr  3 00:01:04 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.60.20]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Tue Apr  4 00:01:04 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.1.60.20]
+ok: [10.0.60.8]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Wed Apr  5 00:01:04 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.1.60.20]
+ok: [10.0.60.8]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Thu Apr  6 00:01:04 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.1.60.20]
+ok: [10.0.60.8]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Fri Apr  7 00:01:03 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.1.60.20]
+ok: [10.0.60.8]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Sat Apr  8 00:01:03 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.1.60.20]
+ok: [10.0.60.8]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Sun Apr  9 00:01:04 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.1.60.20]
+ok: [10.0.60.8]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.20]
+changed: [10.1.60.25]
+changed: [10.0.60.8]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Mon Apr 10 00:01:03 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.1.60.20]
+ok: [10.0.60.8]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Tue Apr 11 00:01:03 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.1.60.20]
+ok: [10.0.60.8]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Wed Apr 12 00:01:03 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.1.60.20]
+ok: [10.0.60.8]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Thu Apr 13 00:01:04 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.1.60.20]
+ok: [10.0.60.8]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.20]
+changed: [10.1.60.25]
+changed: [10.0.60.8]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Fri Apr 14 00:01:03 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.1.60.20]
+ok: [10.0.60.8]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Sat Apr 15 00:01:04 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.1.60.20]
+ok: [10.0.60.8]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Sun Apr 16 00:01:03 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.60.20]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Mon Apr 17 00:01:04 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.1.60.20]
+ok: [10.0.60.8]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Tue Apr 18 00:01:04 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.1.60.20]
+ok: [10.0.60.8]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Wed Apr 19 00:01:04 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.1.60.20]
+ok: [10.0.60.8]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Thu Apr 20 00:01:04 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.1.60.20]
+ok: [10.0.60.8]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Fri Apr 21 00:01:04 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.0.60.8]
+ok: [10.1.60.25]
+ok: [10.1.60.20]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.0.60.8]
+changed: [10.1.60.20]
+changed: [10.1.60.25]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Sat Apr 22 00:01:05 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.60.20]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.0.60.8]
+changed: [10.1.60.20]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Sun Apr 23 00:01:03 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.1.60.20]
+ok: [10.0.60.8]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.20]
+changed: [10.1.60.25]
+changed: [10.0.60.8]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Mon Apr 24 00:01:04 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.1.60.20]
+ok: [10.0.60.8]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.0.60.8]
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Tue Apr 25 00:01:04 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.0.60.8]
+ok: [10.1.60.25]
+ok: [10.1.60.20]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+changed: [10.1.60.25]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Wed Apr 26 00:01:05 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.1.60.20]
+ok: [10.0.60.8]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.0.60.8]
+changed: [10.1.60.20]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Thu Apr 27 00:01:05 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.0.60.8]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.60.25]
+ok: [10.1.0.124]
+ok: [10.1.60.20]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.20]
+changed: [10.1.60.25]
+changed: [10.1.0.143]
+changed: [10.1.0.144]
+changed: [10.0.60.8]
+changed: [10.1.0.122]
+changed: [10.1.0.124]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Fri Apr 28 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.0.60.8]
+ok: [10.1.60.25]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.60.20]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Sat Apr 29 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.1.60.20]
+ok: [10.0.60.8]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+changed: [10.1.0.122]
+changed: [10.1.0.124]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Sun Apr 30 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.60.20]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.20]
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.0.60.8]
+changed: [10.1.60.25]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Mon May  1 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.60.20]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Tue May  2 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.60.20]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.143]
+changed: [10.1.0.144]
+changed: [10.0.60.8]
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Wed May  3 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.60.20]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.0.60.8]
+changed: [10.1.60.20]
+changed: [10.1.60.25]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Thu May  4 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.60.20]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.143]
+changed: [10.1.0.144]
+changed: [10.0.60.8]
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Fri May  5 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.0.60.8]
+ok: [10.1.60.25]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.60.20]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.144]
+changed: [10.1.60.25]
+changed: [10.1.0.143]
+changed: [10.0.60.8]
+changed: [10.1.60.20]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Sat May  6 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.0.60.8]
+ok: [10.1.60.25]
+ok: [10.1.60.20]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.0.60.8]
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Sun May  7 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.1.60.20]
+ok: [10.0.60.8]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.144]
+changed: [10.1.60.25]
+changed: [10.1.0.143]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Mon May  8 00:01:06 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.0.60.8]
+ok: [10.1.60.25]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.60.20]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.144]
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.1.0.143]
+changed: [10.0.60.8]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Tue May  9 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.60.20]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.143]
+changed: [10.1.0.144]
+changed: [10.0.60.8]
+changed: [10.1.60.20]
+changed: [10.1.60.25]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Wed May 10 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.0.60.8]
+ok: [10.1.60.25]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.60.20]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.0.60.8]
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Thu May 11 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.0.144]
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.0.143]
+ok: [10.1.60.20]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.0.144]
+changed: [10.1.60.20]
+changed: [10.1.0.143]
+changed: [10.0.60.8]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Fri May 12 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.0.60.8]
+ok: [10.1.60.25]
+ok: [10.1.60.20]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.143]
+changed: [10.1.0.144]
+changed: [10.0.60.8]
+changed: [10.1.60.20]
+changed: [10.1.60.25]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Sat May 13 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.0.60.8]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.60.25]
+ok: [10.1.60.20]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.20]
+changed: [10.1.0.143]
+changed: [10.1.0.144]
+changed: [10.1.60.25]
+changed: [10.0.60.8]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Sun May 14 00:01:06 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.0.60.8]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.60.25]
+ok: [10.1.0.124]
+ok: [10.1.60.20]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.1.60.20]
+changed: [10.1.60.25]
+changed: [10.0.60.8]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Mon May 15 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.0.60.8]
+ok: [10.1.60.25]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.60.20]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.143]
+changed: [10.1.0.144]
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Tue May 16 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.0.60.8]
+ok: [10.1.60.25]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.60.20]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.0.60.8]
+changed: [10.1.60.20]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Wed May 17 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.0.60.8]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.60.25]
+ok: [10.1.0.122]
+ok: [10.1.60.20]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Thu May 18 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.0.60.8]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.60.25]
+ok: [10.1.0.122]
+ok: [10.1.60.20]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.1.0.143]
+changed: [10.1.0.144]
+changed: [10.0.60.8]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Fri May 19 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.60.20]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+changed: [10.1.60.25]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Sat May 20 00:01:06 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.0.60.8]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.60.20]
+ok: [10.1.60.25]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.0.60.8]
+changed: [10.1.0.122]
+changed: [10.1.0.124]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Sun May 21 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.0.60.8]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.60.25]
+ok: [10.1.0.124]
+ok: [10.1.60.20]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Mon May 22 00:01:06 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.0.60.8]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+ok: [10.1.60.25]
+ok: [10.1.60.20]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Tue May 23 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.60.20]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.0.60.8]
+changed: [10.1.60.20]
+changed: [10.1.60.25]
+changed: [10.1.0.122]
+changed: [10.1.0.124]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Wed May 24 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.60.20]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.0.60.8]
+changed: [10.1.60.20]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Thu May 25 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.0.60.8]
+ok: [10.1.60.25]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.60.20]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Fri May 26 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.60.20]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.0.143]
+changed: [10.1.0.144]
+changed: [10.0.60.8]
+changed: [10.1.60.20]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Sat May 27 00:01:06 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.0.60.8]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.60.25]
+ok: [10.1.0.124]
+ok: [10.1.60.20]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Sun May 28 00:01:06 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.0.60.8]
+ok: [10.1.60.25]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.60.20]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.0.60.8]
+changed: [10.1.60.20]
+changed: [10.1.0.122]
+changed: [10.1.0.124]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Mon May 29 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.60.20]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.143]
+changed: [10.1.0.144]
+changed: [10.0.60.8]
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Tue May 30 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.60.20]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.143]
+changed: [10.1.0.144]
+changed: [10.0.60.8]
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Wed May 31 00:01:06 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.60.20]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.143]
+changed: [10.1.0.144]
+changed: [10.1.60.20]
+changed: [10.1.60.25]
+changed: [10.0.60.8]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Thu Jun  1 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.0.60.8]
+ok: [10.1.60.25]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.60.20]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.0.143]
+changed: [10.1.0.144]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+changed: [10.1.0.122]
+changed: [10.1.0.124]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Fri Jun  2 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.60.20]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.1.60.25]
+changed: [10.0.60.8]
+changed: [10.1.60.20]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Sat Jun  3 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.60.20]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.143]
+changed: [10.1.0.144]
+changed: [10.0.60.8]
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Sun Jun  4 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.60.20]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.0.60.8]
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Mon Jun  5 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.0.60.8]
+ok: [10.1.60.25]
+ok: [10.1.60.20]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.0.60.8]
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Tue Jun  6 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.60.20]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.0.143]
+changed: [10.1.0.144]
+changed: [10.0.60.8]
+changed: [10.1.60.20]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Wed Jun  7 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.0.60.8]
+ok: [10.1.60.25]
+ok: [10.1.60.20]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.1.60.25]
+changed: [10.0.60.8]
+changed: [10.1.60.20]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Thu Jun  8 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.60.20]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.1.60.25]
+changed: [10.0.60.8]
+changed: [10.1.60.20]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Fri Jun  9 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.60.20]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.143]
+changed: [10.1.0.144]
+changed: [10.0.60.8]
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Sat Jun 10 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.0.60.8]
+ok: [10.1.60.20]
+ok: [10.1.60.25]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.0.143]
+changed: [10.1.0.144]
+changed: [10.0.60.8]
+changed: [10.1.60.20]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Sun Jun 11 00:01:06 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.0.60.8]
+ok: [10.1.60.20]
+ok: [10.1.60.25]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.144]
+changed: [10.0.60.8]
+changed: [10.1.60.25]
+changed: [10.1.0.143]
+changed: [10.1.60.20]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Mon Jun 12 00:01:08 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.60.20]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.0.143]
+changed: [10.1.0.144]
+changed: [10.0.60.8]
+changed: [10.1.60.20]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Tue Jun 13 00:01:06 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.0.60.8]
+ok: [10.1.60.25]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.60.20]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.0.143]
+changed: [10.1.0.144]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Wed Jun 14 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.60.20]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.143]
+changed: [10.1.0.144]
+changed: [10.0.60.8]
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Thu Jun 15 00:01:06 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.1.60.20]
+ok: [10.0.60.8]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.0.60.8]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Fri Jun 16 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.0.60.8]
+ok: [10.1.60.25]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.60.20]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Sat Jun 17 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.60.20]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.0.60.8]
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Sun Jun 18 00:01:06 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.0.60.8]
+ok: [10.1.60.25]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.60.20]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Mon Jun 19 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.0.60.8]
+ok: [10.1.60.25]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.60.20]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Tue Jun 20 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.60.20]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.0.60.8]
+changed: [10.1.60.20]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Wed Jun 21 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.0.60.8]
+ok: [10.1.60.25]
+ok: [10.1.0.143]
+ok: [10.1.0.144]
+ok: [10.1.60.20]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.144]
+changed: [10.1.60.25]
+changed: [10.1.0.143]
+changed: [10.0.60.8]
+changed: [10.1.60.20]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Thu Jun 22 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.60.20]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.0.60.8]
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Fri Jun 23 00:01:06 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.60.20]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Sat Jun 24 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.0.60.8]
+ok: [10.1.60.25]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.60.20]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Sun Jun 25 00:01:06 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.1.60.20]
+ok: [10.0.60.8]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.144]
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.1.0.143]
+changed: [10.0.60.8]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Mon Jun 26 00:01:06 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.60.20]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.0.60.8]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Tue Jun 27 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.0.60.8]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.60.25]
+ok: [10.1.0.124]
+ok: [10.1.60.20]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.0.144]
+changed: [10.1.60.20]
+changed: [10.1.0.143]
+changed: [10.0.60.8]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Wed Jun 28 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.0.60.8]
+ok: [10.1.60.25]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.60.20]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.0.60.8]
+changed: [10.1.60.20]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Thu Jun 29 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.60.20]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.0.60.8]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Fri Jun 30 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.0.60.8]
+ok: [10.1.60.25]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.60.20]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.0.60.8]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Sat Jul  1 00:01:08 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.60.20]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.0.143]
+changed: [10.1.0.144]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Sun Jul  2 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.60.20]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.0.143]
+changed: [10.1.60.20]
+changed: [10.1.0.144]
+changed: [10.0.60.8]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Mon Jul  3 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.0.60.8]
+ok: [10.1.60.25]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.60.20]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Tue Jul  4 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.60.20]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.0.60.8]
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Wed Jul  5 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.60.20]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.0.60.8]
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Thu Jul  6 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.60.20]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.0.60.8]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Fri Jul  7 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.0.60.8]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.60.25]
+ok: [10.1.60.20]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Sat Jul  8 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.60.20]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Sun Jul  9 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.60.20]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.144]
+changed: [10.1.60.25]
+changed: [10.1.0.143]
+changed: [10.0.60.8]
+changed: [10.1.60.20]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Mon Jul 10 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.0.60.8]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.60.25]
+ok: [10.1.0.124]
+ok: [10.1.60.20]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.0.143]
+changed: [10.1.0.144]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+changed: [10.1.0.122]
+changed: [10.1.0.124]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Tue Jul 11 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.60.20]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.1.60.25]
+changed: [10.0.60.8]
+changed: [10.1.60.20]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Wed Jul 12 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.60.20]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+changed: [10.1.0.122]
+changed: [10.1.0.124]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Thu Jul 13 00:01:06 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.60.20]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.0.60.8]
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Fri Jul 14 00:01:06 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.0.60.8]
+ok: [10.1.60.25]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.60.20]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Sat Jul 15 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.60.20]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.0.60.8]
+changed: [10.1.60.20]
+changed: [10.1.60.25]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Sun Jul 16 00:01:06 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.60.20]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.1.60.25]
+changed: [10.0.60.8]
+changed: [10.1.60.20]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Mon Jul 17 00:01:06 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.60.20]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.1.60.20]
+changed: [10.1.60.25]
+changed: [10.0.60.8]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Tue Jul 18 00:01:06 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.60.20]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Wed Jul 19 00:01:09 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.0.60.8]
+ok: [10.1.60.20]
+ok: [10.1.60.25]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.144]
+changed: [10.1.60.25]
+changed: [10.1.0.143]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Thu Jul 20 00:01:06 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.60.20]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.0.60.8]
+changed: [10.1.60.20]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+changed: [10.1.60.25]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Fri Jul 21 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.0.60.8]
+ok: [10.1.60.25]
+ok: [10.1.60.20]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.1.60.25]
+changed: [10.0.60.8]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+changed: [10.1.60.20]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Sat Jul 22 00:01:08 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.60.20]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.0.60.8]
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Sun Jul 23 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.60.20]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.0.60.8]
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Mon Jul 24 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.1.60.20]
+ok: [10.0.60.8]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.0.60.8]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Tue Jul 25 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.1.60.20]
+ok: [10.0.60.8]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.0.143]
+changed: [10.1.0.144]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Wed Jul 26 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.20]
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.0.143]
+changed: [10.1.0.144]
+changed: [10.0.60.8]
+changed: [10.1.60.20]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Thu Jul 27 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.0.60.8]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.60.25]
+ok: [10.1.60.20]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.1.60.20]
+changed: [10.0.60.8]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Fri Jul 28 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.1.60.20]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.0.60.8]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.0.60.8]
+changed: [10.1.60.25]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+changed: [10.1.60.20]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Sat Jul 29 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.1.60.20]
+ok: [10.0.60.8]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.0.60.8]
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Sun Jul 30 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.0.60.8]
+ok: [10.1.60.25]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.60.20]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.60.25]
+changed: [10.1.0.144]
+changed: [10.1.60.20]
+changed: [10.1.0.143]
+changed: [10.0.60.8]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Mon Jul 31 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.0.60.8]
+ok: [10.1.60.20]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.144]
+changed: [10.1.60.25]
+changed: [10.1.0.143]
+changed: [10.0.60.8]
+changed: [10.1.60.20]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Tue Aug  1 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.20]
+ok: [10.0.60.8]
+ok: [10.1.60.25]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.0.60.8]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+changed: [10.1.60.25]
+changed: [10.1.60.20]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Wed Aug  2 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.1.60.20]
+ok: [10.0.60.8]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.0.60.8]
+changed: [10.1.60.20]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+changed: [10.1.60.25]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Thu Aug  3 00:01:07 CST 2017
+
+PLAY [check keepalived status log] *********************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.60.25]
+ok: [10.1.60.20]
+ok: [10.0.60.8]
+ok: [10.1.0.144]
+ok: [10.1.0.143]
+ok: [10.1.0.124]
+ok: [10.1.0.122]
+
+TASK [keepalived_check : checker keepalived] ***********************************
+changed: [10.1.0.144]
+changed: [10.1.0.143]
+changed: [10.0.60.8]
+changed: [10.1.60.20]
+changed: [10.1.0.124]
+changed: [10.1.0.122]
+changed: [10.1.60.25]
+
+PLAY RECAP *********************************************************************
+10.0.60.8                  : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.122                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.124                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.143                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.0.144                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.20                 : ok=2    changed=1    unreachable=0    failed=0   
+10.1.60.25                 : ok=2    changed=1    unreachable=0    failed=0   
+
+Fri Aug  4 00:01:07 CST 2017

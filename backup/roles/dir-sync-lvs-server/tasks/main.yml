@@ -1,0 +1,21 @@
+---
+# This role contains common plays that will run on all nodes.
+- name: include vars
+  include_vars: "{{ item }}"
+  with_items:
+    - "group_vars/os-base-list"
+    - "group_vars/lvs-filedir-list"
+
+- name: sync  from the remote and save to local
+  synchronize:  src={{ item.value.directory }} dest=/playbooks/warehouse/{{ ansible_host }} mode=pull
+  with_dict: "{{os_centos_dirs}}"
+  ignore_errors: yes
+  tags:
+    - task-rsync-directories
+
+- name: sync  from the remote and save to local
+  synchronize:  src={{ item.value.directory }} dest=/playbooks/warehouse/{{ ansible_host }} mode=pull
+  with_dict: "{{lvs_dirs}}"
+  ignore_errors: yes
+  tags:
+    - task-rsync-directories-lvs-dirs

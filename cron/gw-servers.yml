@@ -1,0 +1,16 @@
+---
+# This playbook perform a restart task
+
+- name: restart gw service on node 10.1.52.7
+  hosts: gw-vm207
+  remote_user: root
+  roles:
+    - gw-vm207
+
+- name: restart gw service on node 10.1.52.8
+  hosts: gw-vm208
+  remote_user: root
+  roles:
+    - gw-vm208
+
+

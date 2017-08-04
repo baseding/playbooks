@@ -1,0 +1,9 @@
+---
+# This role contains common plays that will run on all nodes.
+
+- name: Execute bossbill quota.log
+  command: chdir=/home/mlink/bossbill {{ item }}
+  with_items:
+    - sh check_quota_log.sh
+  ignore_errors: yes
+

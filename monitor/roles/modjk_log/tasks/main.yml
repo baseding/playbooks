@@ -1,0 +1,23 @@
+---
+# This role contains common plays that will run on all nodes.
+
+- name: Get apache server modjk exception log
+  command: chdir=/root/.monitor/modjk_error {{ item }}
+  with_items:
+    - sh check_agent.sh
+  ignore_errors: yes
+
+
+- name: Get apache server modjk exception log
+  command: chdir=/root/.monitor/modjk_dp {{ item }}
+  with_items:
+    - sh check_agent.sh
+  ignore_errors: yes
+
+
+- name: Get apache server modjk exception log
+  command: chdir=/root/.monitor/modjk_gewara {{ item }}
+  with_items:
+    - sh check_agent.sh
+  ignore_errors: yes
+

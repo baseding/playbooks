@@ -1,0 +1,52 @@
+---
+# This role contains common plays that will run on all nodes.
+
+- name: include vars
+  include_vars: "group_vars/boss3_log_list"
+
+- name: Get Date
+  action: shell date -d "-1 day" +"%Y-%m-%d" 
+  register: yestoday
+
+- name: Fetch remote file to ansible path tmp
+  #shell: echo "{{ ansible_host }}"
+  fetch: src={{ item.value.directory }}/receiver.log.{{ yestoday.stdout }} dest=/tmp/tmp/
+  with_dict: "{{ api_log_109 }}"
+  when: "'{{ ansible_host }}' == '10.0.0.109'"
+  ignore_errors: yes
+  tags:
+    - task-fetch-files
+
+
+- name: Fetch remote file to ansible path tmp
+  fetch: src={{ item.value.directory }}/receiver.log.{{ yestoday.stdout }} dest=/tmp/tmp/
+  with_dict: "{{ api_log_110 }}"
+  when: "'{{ ansible_host }}' == '10.0.0.110'"
+  ignore_errors: yes
+  tags:
+    - task-fetch-files
+
+
+
+- name: Fetch remote file to ansible path tmp
+  fetch: src={{ item.value.directory }}/receiver.log.{{ yestoday.stdout }} dest=/tmp/tmp/
+  with_dict: "{{ api_log_123 }}"
+  when: "'{{ ansible_host }}' == '10.1.0.123'"
+  ignore_errors: yes
+  tags:
+    - task-fetch-files
+
+
+
+- name: Fetch remote file to ansible path tmp
+  fetch: src={{ item.value.directory }}/receiver.log.{{ yestoday.stdout }} dest=/tmp/tmp/
+  with_dict: "{{ api_log_124 }}"
+  when: "'{{ ansible_host }}' == '10.1.0.124'"
+  ignore_errors: yes
+  tags:
+    - task-fetch-files
+
+
+
+
+

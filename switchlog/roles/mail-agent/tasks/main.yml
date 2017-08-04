@@ -1,0 +1,13 @@
+---
+# This role contains common plays that will run on all nodes.
+
+- name: Get Date
+  action: shell date +"%Y-%m-%d" 
+  register: today
+  ignore_errors: yes
+
+- name: Execute script if rsync is not installed
+  shell: echo "Please see attached files" | mutt -a $( find /tftpboot -type f -name "log_{{ today.stdout }}*") -s "Switch log of date {{ today.stdout }}" -- yfding@mail.etonenet.com
+  tags:   
+    - task-send-mail
+

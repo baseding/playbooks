@@ -1,0 +1,8 @@
+---
+# This playbook perform a restart task
+
+- name: bak and zip nginx log
+  hosts: remote_host_nginx_server
+  remote_user: root
+  roles:
+    - remote_cron_bak_zip_nginx_log

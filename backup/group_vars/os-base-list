@@ -1,0 +1,52 @@
+---
+os_centos:
+  1:
+    file: "/etc/hostname"
+    iscopy: true
+  2:
+    file: "/etc/hosts"
+    iscopy: true
+  3: 
+    file: "/etc/resolv.conf"
+    iscopy: true
+  4: 
+    file: "/etc/profile"
+    iscopy: true
+  5: 
+    file: "/etc/sysctl.conf"
+    iscopy: true
+  6: 
+    file: "/etc/selinux/config"
+    iscopy: true
+  7:
+    file: "/etc/security/limits.conf"
+    iscopy: true
+  8: 
+    file: "/etc/security/limits.d/20-nproc.conf"
+    iscopy: true
+  9:
+    file: "/etc/sysconfig/network"
+    iscopy: true  
+  10: 
+    file: "/etc/sysconfig/sysctl.conf"
+    iscopy: true
+  11: 
+    file: "/etc/snmp/snmpd.conf"
+    iscopy: true
+  12:
+    file: "/etc/rc.d/rc.local"
+    iscopy: true
+  13:
+    file: "/etc/iproute2/rt_tables"
+    iscopy: true
+
+
+
+os_centos_dirs:
+  1: 
+    directory: "/root"
+    iscopy: true
+  2:
+    directory: "/etc/sysconfig/network-scripts"
+    iscopy: true
+

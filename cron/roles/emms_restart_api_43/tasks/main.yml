@@ -1,0 +1,32 @@
+---
+# This role contains common plays that will run on all nodes.
+
+- name: restart task of emmsgw_ctc9202
+  command: chdir=/home/mlink/emmsgw/emmsgw_ctc9202 {{ item }}
+  with_items:
+    - /bin/sh emmsgw_ctc9202.sh stop
+    - sleep 5
+    - /bin/sh emmsgw_ctc9202.sh stop --force
+    - sleep 5
+    - /bin/sh emmsgw_ctc9202.sh start
+  become: yes
+  become_user: mlink
+  become_method: su
+  ignore_errors: yes
+  tags:
+    - task43-9202
+
+- name: restart task of emmsgw_ctc9204
+  command: chdir=/home/mlink/emmsgw/emmsgw_ctc9204 {{ item }}
+  with_items:
+    - /bin/sh emmsgw_ctc9204.sh stop
+    - sleep 5
+    - /bin/sh emmsgw_ctc9204.sh stop --force
+    - sleep 5
+    - /bin/sh emmsgw_ctc9204.sh start
+  become: yes
+  become_user: mlink
+  become_method: su
+  ignore_errors: yes
+  tags:
+    - task43-9204

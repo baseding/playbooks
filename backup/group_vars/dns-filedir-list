@@ -1,0 +1,11 @@
+---
+dns_conf:
+  1:
+    file: "/etc/named.conf"
+    iscopy: true
+
+dns_dirs:
+  1:
+    directory: "/var/named"
+    iscopy: true
+

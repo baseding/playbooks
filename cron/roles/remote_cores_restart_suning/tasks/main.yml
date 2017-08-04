@@ -1,0 +1,9 @@
+---
+# This role contains common plays that will run on all nodes.
+
+- name: Execute script
+  command: chdir=/home/mlink {{ item }}
+  with_items:
+    - sh scriptsingle.sh
+  ignore_errors: yes
+

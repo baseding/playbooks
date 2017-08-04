@@ -1,0 +1,24 @@
+---
+# This role contains common plays that will run on all nodes.
+- name: include vars
+  include_vars: "{{ item }}"
+  with_items:
+    - "group_vars/os-base-list"
+    - "group_vars/apache-filedir-list"
+
+- name: Fetch remote file to warehouse
+  #debug: msg="{{ item }}"
+  fetch: src={{item.value.file}} dest=/playbooks/warehouse
+  with_dict: "{{os_centos}}"
+  ignore_errors: yes
+  tags:
+    - task-fetch-files-os
+
+- name: Fetch remote file to warehouse
+  #debug: msg="{{ item }}"
+  fetch: src={{item.value.file}} dest=/playbooks/warehouse
+  with_dict: "{{apache_conf}}"
+  ignore_errors: yes
+  tags:
+    - task-fetch-files-apache-conf
+

@@ -1,0 +1,7 @@
+---
+# This role contains common plays that will run on all nodes.
+
+- name: touch file
+  action: shell touch /tmp/$(date +"%Y%m%d.%H%M.%S").{{ item.value.bossname }}.txt 
+  with_dict: "{{ core1 }}"
+

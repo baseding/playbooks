@@ -1,0 +1,8 @@
+---
+# This playbook perform a restart task
+
+- name: check core log
+  hosts: core-mc-list18.h
+  remote_user: root
+  roles:
+    - core_mc_log

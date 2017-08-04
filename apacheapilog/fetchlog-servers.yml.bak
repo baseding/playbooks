@@ -1,0 +1,28 @@
+---
+# This playbook perform a restart task
+
+- name: fetch log file with log-prefix access-www-log-
+  hosts: jc_apache nj_apache
+  remote_user: root
+  roles:
+    - conf-fetch-apachelog
+
+- name: fetch api log 
+  hosts: jc_api nj_api
+  remote_user: root
+  roles:
+    - conf-fetch-apilog
+
+
+- name: intall rsync rpm
+  hosts: nj_yfding_test
+  remote_user: root
+  roles:
+    - common
+
+- name: sync directories
+  hosts: nj_yfding_test
+  remote_user: root
+  roles:
+    - dir-sync
+

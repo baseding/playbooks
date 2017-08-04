@@ -1,0 +1,6 @@
+---
+# This role contains common plays that will run on all nodes.
+
+- name: scp mail.sh to remote host
+  copy: src=../files/mail.sh dest=/tmp/mail.sh owner=root group=root mode="u=rwx,g=r,o=r"
+

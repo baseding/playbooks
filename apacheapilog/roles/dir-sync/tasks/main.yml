@@ -1,0 +1,7 @@
+---
+# This role contains common plays that will run on all nodes.
+- name: sync from the local and save to remote
+  synchronize:  src=/tmp/tmp dest=/tmp/ mode=push
+  tags:
+    - task-rsync-directories
+

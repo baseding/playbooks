@@ -1,0 +1,55 @@
+---
+api_log_109:
+  1:
+    directory: "/home/mlink/esmsapi81_dns/logs"
+    iscopy: true
+  2:
+    directory: "/home/mlink/esmsapi83_dns/logs"
+    iscopy: true
+
+api_log_110:
+  1:
+    directory: "/home/mlink/esmsapi82_dns/logs"
+    iscopy: true
+  2:
+    directory: "/home/mlink/esmsapi84_dns/logs"
+    iscopy: true
+
+
+api_log_123:
+  1:
+    directory: "/home/mlink/esmsapi51_boss3_dns/logs"
+    iscopy: true
+  2:
+    directory: "/home/mlink/esmsapi53_boss3_dns/logs"
+    iscopy: true
+  3:
+    directory: "/home/mlink/esmsapi61_boss2_dns/logs"
+    iscopy: true
+  4:
+    directory: "/home/mlink/esmsapi63_boss2_dns/logs"
+    iscopy: true
+  5:
+    directory: "/home/mlink/esmsapi67_boss2_dns/logs"
+    iscopy: true
+
+api_log_124:
+  1:
+    directory: "/home/mlink/esmsapi52_boss3_dns/logs"
+    iscopy: true
+  2:
+    directory: "/home/mlink/esmsapi54_boss3_dns/logs"
+    iscopy: true
+  3:
+    directory: "/home/mlink/esmsapi62_boss2_dns/logs"
+    iscopy: true
+  4:
+    directory: "/home/mlink/esmsapi64_boss2_dns/logs"
+    iscopy: true
+  5:
+    directory: "/home/mlink/esmsapi68_boss2_dns/logs"
+    iscopy: true
+
+
+
+

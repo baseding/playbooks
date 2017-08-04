@@ -1,0 +1,67 @@
+---
+nj_sw_info:
+  "10.1.0.244":
+    name: "dione"
+    passwd: "dione"
+    enable: "dione"
+  "10.1.0.241":
+    name: "mimas"
+    passwd: "etonenet"
+    enable: "mimas"
+  "10.1.0.242":
+    name: "enceladus"
+    passwd: "etonenet"
+    enable: "enceladus"
+  "10.1.0.243":
+    name: "tethys"
+    passwd: "etonenet"
+    enable: "tethys"
+  "10.1.0.245":
+    name: "rhea"
+    passwd: "etonenet"
+    enable: "rhea"
+  "10.1.0.246":
+    name: "titan"
+    passwd: "etonenet"
+    enable: "titan"
+  "10.1.0.247":
+    name: "atlas"
+    passwd: "etonenet"
+    enable: "atlas"
+  "10.1.0.248":
+    name: "calypso"
+    passwd: "etonenet"
+    enable: "calypso"
+  "10.1.0.249":
+    name: "phoebe"
+    passwd: "etonenet"
+    enable: "etonenet"
+  "10.1.0.250":
+    name: "prometheus"
+    passwd: "etonenet"
+    enable: "prometheus"
+  "10.1.0.251":
+    name: "pandora"
+    passwd: "etonenet"
+    enable: "pandora"
+
+jc_sw_info:
+  "10.0.0.247":
+    name: "hyperion"
+    passwd: "etonenet"
+    enable: "etonenet"
+  "10.0.0.250":
+    name: "janus"
+    passwd: "etonenet"
+    enable: "etonenet"
+  "10.0.0.251":
+    name: "epimetheus"
+    passwd: "etonenet"
+    enable: "epimetheus"
+  "10.0.0.252":
+    name: "helene"
+    passwd: "etonenet"
+    enable: "helene"
+
+
+

@@ -1,0 +1,9 @@
+---
+# This role contains common plays that will run on all nodes.
+
+- name: Execute script
+  command: chdir=/root/ {{ item }}
+  with_items:
+    - sh rsync-backup.sh
+  ignore_errors: yes
+

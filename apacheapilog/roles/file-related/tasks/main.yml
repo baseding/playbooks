@@ -1,0 +1,5 @@
+---
+# This role contains common plays that will run on all nodes.
+
+- name: delete directory 
+  action: shell rm /tmp/tmp -rf

@@ -1,0 +1,17 @@
+---
+core5:
+  1:
+    name: "yinlian-core5"
+    host: "10.1.0.213"
+    core: "5"
+    timestart: "00"
+    timestop: "24"
+
+core7:
+  1:
+    name: "yinlian-core7"
+    host: "10.1.0.217"
+    core: "7"
+    timestart: "00"
+    timestop: "24"
+

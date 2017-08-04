@@ -1,0 +1,15 @@
+---
+# This playbook perform a restart task
+
+- name: intall rsync rpm
+  hosts: nj_kvm
+  remote_user: root
+  roles:
+    - common
+
+- name: sync directories
+  hosts: nj_kvm
+  remote_user: root
+  roles:
+    - dir-sync-log
+

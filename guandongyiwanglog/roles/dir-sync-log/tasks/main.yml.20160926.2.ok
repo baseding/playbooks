@@ -1,0 +1,14 @@
+---
+# This role contains common plays that will run on all nodes.
+
+- name: Get Date
+  action: shell date -d "-1 day" +"%Y-%m-%d" 
+  register: yestoday
+
+
+- name: sync from the remote to local /playbooks/warehouse/guangdongyiwanglog
+  synchronize:  src=/home/mlink/esmsapi-ismg/logs/{{ yestoday.stdout }} dest=/playbooks/warehouse/guangdongyiwanglog mode=pull
+  ignore_errors: yes
+  tags:
+    - task-rsync-directories
+

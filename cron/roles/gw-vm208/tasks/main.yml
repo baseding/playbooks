@@ -1,0 +1,33 @@
+---
+# This role contains common plays that will run on all nodes.
+
+- name: restart task of gw_208_01_bjchus
+  command: chdir=/home/mlink/gw_208_01_bjchus {{ item }}
+  with_items:
+    - /bin/sh gw_208_01_bjchus.sh stop
+    - sleep 5
+    - /bin/sh gw_208_01_bjchus.sh stop --force
+    - sleep 5
+    - /bin/sh gw_208_01_bjchus.sh start
+  become: yes
+  become_user: mlink
+  become_method: su
+  ignore_errors: yes
+  tags:
+    - task-gw_208_01_bjchus
+
+- name: restart task of gw_208_02_bjchus
+  command: chdir=/home/mlink/gw_208_02_bjchus {{ item }}
+  with_items:
+    - /bin/sh gw_208_02_bjchus.sh stop
+    - sleep 5
+    - /bin/sh gw_208_02_bjchus.sh stop --force
+    - sleep 5
+    - /bin/sh gw_208_02_bjchus.sh start
+  become: yes
+  become_user: mlink
+  become_method: su
+  ignore_errors: yes
+  tags:
+    - task-gw_208_02_bjchus
+

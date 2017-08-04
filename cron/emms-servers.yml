@@ -1,0 +1,24 @@
+---
+# This playbook perform a restart task
+
+- name: restart emms service on emms-gw node 10.1.50.41
+  hosts: emms-gw-41
+  remote_user: root
+
+  roles:
+    - emms_restart_api_41
+
+- name: restart emms service on emms-gw node 10.1.50.42
+  hosts: emms-gw-42
+  remote_user: root
+
+  roles:
+    - emms_restart_api_42
+
+- name: restart emms service on emms-gw node 10.1.50.43
+  hosts: emms-gw-43
+  remote_user: root
+
+  roles:
+    - emms_restart_api_43
+

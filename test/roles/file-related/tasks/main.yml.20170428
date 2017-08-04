@@ -1,0 +1,21 @@
+---
+# This role contains common plays that will run on all nodes.
+
+- name: Get date
+  action: shell date +"%Y%m%d" 
+  register: date
+
+- name: Get directory
+  action: shell find /home/mlink -name "*rtmotosp*"
+  register: dirlist
+
+- name: Fetch remote file to ansible path tmp
+  action: shell (cp -rp {{ item }}/webapps {{ item }}/webapps_bak{{ date.stdout}} ) 
+  with_items: "{{dirlist.stdout_lines}}"
+  become: yes
+  become_user: mlink
+  become_method: su
+  ignore_errors: yes
+  tags:
+    - backup-webapp
+

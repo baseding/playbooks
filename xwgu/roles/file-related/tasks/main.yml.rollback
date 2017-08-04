@@ -1,0 +1,53 @@
+---
+# This role contains common plays that will run on all nodes.
+
+- name: Get date
+#  action: shell date +"%Y%m%d" 
+  action: shell echo "20170516"
+  register: date
+
+- name: Get directory
+  action: shell cd /home/mlink; (find . -name "*rtmotosp*" -maxdepth 1 -type d | cut -d'/' -f2)
+  register: dirlist
+
+- name: stop app
+  action: shell (cd /home/mlink/{{ item }}; /bin/sh {{ item }}.sh stop; sleep 10; /bin/sh {{ item }}.sh stop -force; sleep 5 )
+  with_items:
+    - "{{dirlist.stdout_lines}}"
+  become: yes
+  become_user: mlink
+  become_method: su
+  ignore_errors: yes
+  tags:
+    - stop-app
+
+- name: rm remote file
+  action: shell (cd /home/mlink/{{ item }}; rm -rf /home/mlink/{{ item }}/webapps ) 
+  with_items: "{{dirlist.stdout_lines}}"
+  become: yes
+  become_user: mlink
+  become_method: su
+  ignore_errors: yes
+  tags:
+    - rmfile-webapp
+
+- name: mv remote file
+  action: shell (cd /home/mlink/{{ item }}; mv /home/mlink/{{ item }}/webapps_bak{{ date.stdout }} /home/mlink/{{ item }}/webapps )
+  with_items: "{{dirlist.stdout_lines}}"
+  become: yes
+  become_user: mlink
+  become_method: su
+  ignore_errors: yes
+  tags:
+    - mvfile-webapp
+
+- name: start app
+  action: shell (cd /home/mlink/{{ item }}; /bin/sh {{ item }}.sh start )
+  with_items:
+    - "{{dirlist.stdout_lines}}"
+  become: yes
+  become_user: mlink
+  become_method: su
+  ignore_errors: yes
+  tags:
+    - start-app

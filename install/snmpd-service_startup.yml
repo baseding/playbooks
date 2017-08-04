@@ -1,0 +1,8 @@
+---
+# This playbook perform a restart task
+
+- name: config snmp client
+  hosts: client
+  remote_user: root
+  roles:
+    - config-startup

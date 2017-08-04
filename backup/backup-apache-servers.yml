@@ -1,0 +1,20 @@
+---
+# This playbook perform a restart task
+
+- name: fetch files
+  hosts: jc-apache nj-apache dl-apache
+  remote_user: root
+  roles:
+    - conf-fetch-apache-server
+
+- name: intall rsync rpm
+  hosts: jc-apache nj-apache dl-apache
+  remote_user: root
+  roles:
+    - common
+
+- name: sync directories
+  hosts: jc-apache nj-apache dl-apache
+  remote_user: root
+  roles:
+    - dir-sync-apache-server

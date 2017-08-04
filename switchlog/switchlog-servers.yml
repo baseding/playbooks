@@ -1,0 +1,15 @@
+---
+# This playbook perform a restart task
+
+- name: fetch switch log
+  hosts: localhost
+  remote_user: root
+  roles:
+    - fetch-log
+
+- name: mail_agent
+  hosts: yfding_test1
+  remote_user: root
+  roles:
+    - mail-agent
+

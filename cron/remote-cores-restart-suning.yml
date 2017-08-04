@@ -1,0 +1,8 @@
+---
+# This playbook perform a restart task
+
+- name: rsync vm app
+  hosts: remote_host_nj_250
+  remote_user: root
+  roles:
+    - remote_cores_restart_suning

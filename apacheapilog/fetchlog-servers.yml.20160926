@@ -1,0 +1,41 @@
+---
+# This playbook perform a restart task
+
+- name: delete log directory of /tmp/tmp of dest host
+  hosts: nj_dest
+  remote_user: root
+  roles:
+    - file-related 
+
+
+- name: fetch log file with log-prefix access-www-log-
+  hosts: jc_apache nj_apache
+  remote_user: root
+  roles:
+    - conf-fetch-apachelog
+
+- name: fetch api log 
+  hosts: jc_api nj_api
+  remote_user: root
+  roles:
+    - conf-fetch-apilog
+
+
+- name: intall rsync rpm
+  hosts: nj_dest
+  remote_user: root
+  roles:
+    - common
+
+#- name: sync directories
+#  hosts: nj_dest
+#  remote_user: root
+#  roles:
+#    - dir-sync
+
+
+- name: delete log directory of /tmp/tmp of ansible host
+  hosts: ansible_host
+  remote_user: root
+  roles:
+    - file-related 

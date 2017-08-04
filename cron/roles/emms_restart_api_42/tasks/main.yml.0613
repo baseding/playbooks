@@ -1,0 +1,18 @@
+---
+# This role contains common plays that will run on all nodes.
+
+- name: restart task of emmsapi-9108
+  command: chdir=/home/mlink/emmsgw/emmsgw_9108 {{ item }}
+  with_items:
+    - /bin/sh emmsgw_9108.sh stop
+    - sleep 5
+    - /bin/sh emmsgw_9108.sh stop --force
+    - sleep 5
+    - /bin/sh emmsgw_9108.sh start
+  become: yes
+  become_user: mlink
+  become_method: su
+  ignore_errors: yes
+  tags:
+    - task42-9108
+

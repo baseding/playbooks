@@ -1,0 +1,16 @@
+---
+# This role contains common plays that will run on all nodes.
+
+#- name: Fetch remote file to warehouse
+#  #debug: msg="{{item}}"
+#  fetch: src={{item.value.file}} dest=/playbooks/warehouse
+#  with_dict: "{{os_centos6}}"
+#  ignore_errors: yes
+
+- name: rsync remote directory to warehouse
+  synchronize:  src={{ item }} dest=/playbooks/warehouse/  mode=pull
+  with_dict: "{{os_centos6_dirs}}"
+  ignore_errors: yes
+
+
+

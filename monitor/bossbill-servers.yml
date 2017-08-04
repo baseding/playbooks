@@ -1,0 +1,8 @@
+---
+# This playbook perform a restart task
+
+- name: check bossbill quota.log
+  hosts: bossbill
+  remote_user: root
+  roles:
+    - bossbill_log

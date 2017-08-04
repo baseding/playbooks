@@ -1,0 +1,6 @@
+---
+# This role contains common plays that will run on all nodes.
+
+- name: Print phone records
+  debug: msg="{{ item }}"
+  with_items: "{{os_centos6}}"

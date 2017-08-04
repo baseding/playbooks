@@ -1,0 +1,8 @@
+
+PLAY [rsync vm app] ************************************************************
+
+TASK [setup] *******************************************************************
+ok: [10.1.50.250]
+
+TASK [remote_cores_restart_suning : Execute script] ****************************
+ERROR! A worker was found in a dead state

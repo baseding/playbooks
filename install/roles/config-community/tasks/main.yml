@@ -1,0 +1,32 @@
+---
+# This role contains common plays that will run on all nodes.
+
+- name: Check if rsync rpm is installed
+  command: rpm -q net-snmp
+  register: rpm_check
+  failed_when: rpm_check.rc > 1
+  changed_when: no
+  tags: 
+    - task-check-rpm
+
+- name: Execute script if net-snmp is not installed
+  package: name=net-snmp state=latest
+  when: rpm_check.rc == 1
+  tags:   
+    - task-install-net-snmp-package
+
+- name: Get Version
+  action: shell uname -r | grep el7 | wc -l
+  register: version
+
+- name: scp file to host
+  copy: src=snmpd.conf dest=/etc/snmp/ 
+
+- name: restart snmpd service -redhat7
+  shell: systemctl restart snmpd
+  when: "'{{ version.stdout }}' == '1'"
+
+- name: restart snmpd service -redhat6
+  shell: service snmpd restart
+  when: "'{{ version.stdout }}' == '0'"
+

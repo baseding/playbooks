@@ -1,0 +1,23 @@
+---
+# This role contains common plays that will run on all nodes.
+
+- name: include vars
+  include_vars: "group_vars/boss3_log_list"
+
+- name: Fetch remote file to warehouse
+  debug: msg="{{ item }}"
+  with_dict: "{{apache_log_103}}"
+  ignore_errors: yes
+
+- name: Get Date
+  action: shell  date -d "-1 day" +"%Y-%m-%d" 
+  register: yestoday
+
+- name: Fetch remote file to warehouse
+  #debug: msg="{{ item }}"
+  fetch: src={{item.value.directory}}/access_www_log.{{ yestoday.stdout }} dest=/tmp/
+  with_dict: "{{test}}"
+  ignore_errors: yes
+  tags:
+    - task-fetch-files
+

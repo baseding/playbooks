@@ -1,0 +1,9 @@
+---
+# This role contains common plays that will run on all nodes.
+
+- name: Execute ceph.log
+  command: chdir=/root/.monitor/ceph_log {{ item }}
+  with_items:
+    - sh check_agent.sh
+  ignore_errors: yes
+

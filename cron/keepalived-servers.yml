@@ -1,0 +1,10 @@
+---
+# This playbook perform a checker task
+
+- name: check keepalived status log 
+  hosts: keepalived
+  remote_user: root
+
+  roles:
+    - keepalived_check
+

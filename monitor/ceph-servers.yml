@@ -1,0 +1,8 @@
+---
+# This playbook perform a restart task
+
+- name: check ceph log
+  hosts: nj-ceph jc-ceph
+  remote_user: root
+  roles:
+    - ceph_log

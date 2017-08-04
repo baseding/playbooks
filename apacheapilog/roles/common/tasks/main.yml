@@ -1,0 +1,17 @@
+---
+# This role contains common plays that will run on all nodes.
+
+- name: Check if rsync rpm is installed
+  command: rpm -q rsync
+  register: rpm_check
+  failed_when: rpm_check.rc > 1
+  changed_when: no
+  tags: 
+    - task-check-rpm
+
+- name: Execute script if rsync is not installed
+  package: name=rsync state=latest
+  when: rpm_check.rc == 1
+  tags:   
+    - task-install-rsync-package
+

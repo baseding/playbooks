@@ -1,0 +1,10 @@
+---
+# This role contains common plays that will run on all nodes.
+
+- name: checker keepalived
+  shell: systemctl status keepalived -n 100 | egrep "Loaded:|Active:|Process:|Main PID:|$(date -d '-1 day' +'%b %d')" | mailx -s 'Keepalived Status' yfding@mail.etonenet.com
+  ignore_errors: yes
+  tags:
+    - keepalived-status-check
+
+

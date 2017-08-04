@@ -1,0 +1,19 @@
+---
+# This role contains common plays that will run on all nodes.
+
+- name: include vars
+  include_vars: "group_vars/boss3_log_list"
+
+- name: Get Date
+  action: shell date -d "-1 day" +"%Y-%m-%d" 
+  register: yestoday
+
+- name: Fetch remote file to ansible path tmp
+  #shell: echo "{{ item }}"
+  fetch: src={{ item.value.directory }}/receiver.log.{{ yestoday.stdout }} dest=/tmp/
+  with_dict: "{{ api_log_109 }}"
+  ignore_errors: yes
+  tags:
+    - task-fetch-files
+
+

@@ -1,0 +1,11 @@
+---
+# This role contains common plays that will run on all nodes.
+
+- name: install rsync on remote host
+  package: name=rsync state=latest
+
+- name: sync  from the remote and save to local
+  synchronize:  src={{ item }} dest=/tmp/yfding/ mode=pull
+  with_items:
+    - "/root/yfding"
+    - "/etc/sysconfig/network-scripts"

@@ -1,0 +1,25 @@
+#!/bin/bash
+host=$1
+name=$2
+passwd=$3
+enable=$4
+today=$5
+
+#IP_LIST="10.1.0.244"
+TFTP_SERVER=10.1.200.101
+
+#== EXECUTE
+for IP in $host ;
+do
+(  
+    echo $passwd  
+    sleep 1   
+    echo "en"
+    sleep 1
+    echo $enable
+    sleep 1
+    echo "sh log | redirect tftp://$TFTP_SERVER/log_$5_$2_$IP.txt"  
+    sleep 1
+    echo "exit"  
+) | telnet $IP 
+done

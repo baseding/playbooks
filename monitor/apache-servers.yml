@@ -1,0 +1,17 @@
+---
+# This playbook perform a restart task
+
+- name: check apache modjk log
+  hosts: nj-apache
+  remote_user: root
+
+  roles:
+    - modjk_log
+
+
+- name: check apache modjk log
+  hosts: nj-dp-leasedline
+  remote_user: root
+
+  roles:
+    - modjk_log_dp_leasedline

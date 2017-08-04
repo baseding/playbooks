@@ -1,0 +1,9 @@
+---
+# This role contains common plays that will run on all nodes.
+
+- name: become user 
+  command: pwd
+  become: yes
+  become_user: mlink
+  become_method: su
+

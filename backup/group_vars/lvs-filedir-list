@@ -1,0 +1,6 @@
+---
+lvs_dirs:
+  1:
+    directory: "/etc/keepalived"
+    iscopy: true
+

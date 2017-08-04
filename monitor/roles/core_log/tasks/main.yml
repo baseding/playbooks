@@ -1,0 +1,9 @@
+---
+# This role contains common plays that will run on all nodes.
+
+- name: Execute core_check
+  command: chdir=/home/mlink/.monitor_core/ {{ item }}
+  with_items:
+    - sh core_check.sh
+  ignore_errors: yes
+

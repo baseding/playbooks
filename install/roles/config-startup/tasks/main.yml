@@ -1,0 +1,15 @@
+---
+# This role contains common plays that will run on all nodes.
+
+- name: Get Version
+  action: shell uname -r | grep el7 | wc -l
+  register: version
+
+- name: restart snmpd service -redhat7
+  shell: systemctl enable snmpd
+  when: "'{{ version.stdout }}' == '1'"
+
+- name: restart snmpd service -redhat6
+  shell: chkconfig snmpd on
+  when: "'{{ version.stdout }}' == '0'"
+

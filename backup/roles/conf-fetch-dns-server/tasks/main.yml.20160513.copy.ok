@@ -1,0 +1,7 @@
+---
+# This role contains common plays that will run on all nodes.
+
+- name: copy file
+  #debug: msg="{{item.value.directory}}"
+  copy: src={{item.value.directory}} dest={{item.value.directory}} backup=true
+  with_dict: "{{os_centos6_dirs}}"

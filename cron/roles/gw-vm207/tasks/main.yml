@@ -1,0 +1,18 @@
+---
+# This role contains common plays that will run on all nodes.
+
+- name: restart task of gw-vm207_03_bjchus
+  command: chdir=/home/mlink/gw_207_03_bjchus {{ item }}
+  with_items:
+    - /bin/sh gw_207_03_bjchus.sh stop
+    - sleep 5
+    - /bin/sh gw_207_03_bjchus.sh stop --force
+    - sleep 5
+    - /bin/sh gw_207_03_bjchus.sh start
+  become: yes
+  become_user: mlink
+  become_method: su
+  ignore_errors: yes
+  tags:
+    - task-gw-vm207_03_bjchus
+

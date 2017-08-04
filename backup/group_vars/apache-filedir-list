@@ -1,0 +1,14 @@
+---
+apache_conf:
+  1:
+    file: "/etc/httpd/conf/httpd.conf"
+    iscopy: true
+  2:
+    file: "/etc/httpd/conf.modules.d/00-mpm.conf"
+    iscopy: true
+
+apache_dirs:
+  1:
+    directory: "/etc/httpd/conf.d"
+    iscopy: true
+
