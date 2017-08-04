@@ -1,0 +1,9 @@
+---
+# This playbook perform a restart task
+
+- name: delete /tmp/tmp directory
+  hosts: monitor
+  remote_user: root
+  roles:
+    - file-related
+

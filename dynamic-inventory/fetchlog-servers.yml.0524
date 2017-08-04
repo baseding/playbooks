@@ -1,0 +1,21 @@
+---
+# This playbook perform a restart task
+
+- name: fetch log file
+  hosts: jc_apache_103
+  remote_user: root
+  roles:
+    - conf-fetch-apachelog
+
+- name: intall rsync rpm
+  hosts: nj_yfding_test
+  remote_user: root
+  roles:
+    - common
+
+- name: sync directories
+  hosts: nj_yfding_test
+  remote_user: root
+  roles:
+    - dir-sync
+
