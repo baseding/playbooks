@@ -1,0 +1,19 @@
+---
+# This role contains common plays that will run on all nodes.
+
+
+- name: Get hour
+  action: shell date +"%H" 
+  register: hour
+
+- name: Execute check core
+#  action: shell sh /home/mlink/.monitor_core{{ item.value.core }}/core_check.sh
+  action: shell touch /tmp/$(date +"%Y%m%d.%H%M.%S").{{ item.value.bossname }}.txt
+  with_dict: "{{ core2 }}"
+#  when: "'{{ item.value.timestart }}' < '{{ hour.stdout }}' and '{{ item.value.timestop }}' > '{{ hour.stdout }}' and '{{ item.value.host  }}' == '{{ ansible_host  }}'"
+  when: "'{{ item.value.timestart }}' < '{{ hour.stdout }}'"
+  ignore_errors: yes
+  tags:
+    - task-check-core
+
+

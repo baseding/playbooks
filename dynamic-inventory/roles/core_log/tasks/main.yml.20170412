@@ -1,0 +1,36 @@
+---
+# This role contains common plays that will run on all nodes.
+
+
+- name: include vars
+  include_vars: "group_vars/core_conf_list.yml"
+
+- name: Get hour
+  action: shell date +"%H" 
+  register: hour
+
+- name: Execute core_check5
+  action: shell sh /home/mlink/.monitor_core{{ item.value.core }}/core_check.sh
+  with_dict: "{{ core5 }}"
+  when: "'{{ item.value.timestart }}' < '{{ hour.stdout }}' and '{{ item.value.timestop }}' > '{{ hour.stdout }}' and '{{ item.value.host  }}' == '{{ ansible_host  }}'"
+  ignore_errors: yes
+  tags:
+    - task-core-check5
+
+
+- name: Execute core_check7
+  action: shell sh /home/mlink/.monitor_core{{ item.value.core }}/core_check.sh
+  with_dict: "{{ core7 }}"
+  when: "'{{ item.value.timestart }}' < '{{ hour.stdout }}' and '{{ item.value.timestop }}' > '{{ hour.stdout }}' and '{{ item.value.host  }}' == '{{ ansible_host  }}'"
+  ignore_errors: yes
+  tags:
+    - task-core-check7
+
+- name: Execute core_check10
+  action: shell sh /home/mlink/.monitor_core{{ item.value.core }}/core_check.sh
+  with_dict: "{{ core10 }}"
+  when: "'{{ item.value.timestart }}' < '{{ hour.stdout }}' and '{{ item.value.timestop }}' > '{{ hour.stdout }}' and '{{ item.value.host  }}' == '{{ ansible_host  }}'"
+  ignore_errors: yes
+  tags:
+    - task-core-check10
+

@@ -6,8 +6,9 @@ ANSIBLE_INV = {
     "monitor": {
         "hosts": ["10.1.200.101", "10.0.50.205"],
         "vars": {
-            "core1": {"1":{"corename":"core1","hostip":"10.1.200.101","bossname":"boss1","path":"/home/mlink/esmscore1","timestart":"00","timestart":"24","frequency":"1","mailto":"yfding@mail.etonenet.com;baseding@qq.com"}},
-            "core2": {"1":{"corename":"core2","hostip":"10.1.50.205","bossname":"boss2","path":"/home/mlink/esmscore2","timestart":"00","timestart":"24","frequency":"1","mailto":"yfding@mail.etonenet.com;baseding@qq.com"}},
+            "core2": {"1":{"corename":"core1","host":"10.1.200.101","bossname":"boss1","path":"/home/mlink/esmscore1","timestart":"00","timestop":"24","frequency":"1","mailto":"yfding@mail.etonenet.com;baseding@qq.com"},"2":{"corename":"core3","host":"10.1.200.101","bossname":"boss3","path":"/home/mlink/esmscore3","timestart":"00","timestop":"24","frequency":"1","mailto":"yfding@mail.etonenet.com;baseding@qq.com"}},
+
+	    "core3": {"1":{"corename":"core1","host":"10.1.50.205","bossname":"boss3","path":"/home/mlink/esmscore3","timestart":"00","timestop":"24","frequency":"1","mailto":"yfding@mail.etonenet.com;baseding@qq.com"}},
         }
     },
     'ceph': {

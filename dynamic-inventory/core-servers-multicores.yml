@@ -1,0 +1,8 @@
+---
+# This playbook perform a restart task
+
+- name: check each core log
+  hosts: monitor
+  remote_user: root
+  roles:
+    - core_log
